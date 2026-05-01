@@ -8,7 +8,6 @@ A list of linux commands running on Linux Kernel Distro Ubuntu BASH.
 cd /path/name
 
 **To change the working directory to your home directory.**
-```bash
 cd 
 
 **To change the working directory to the previous working directory**
