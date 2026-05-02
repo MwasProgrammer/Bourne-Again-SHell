@@ -13,12 +13,12 @@ cd /path/name
 cd 
 ```
 
-**To change the working directory to the previous working directory**
+**To change the working directory to the previous working directory. **
 ```bash
 cd -
 ```
 
-## List command**
+## List command
 **To list files sorted by the file modification time**
 ```bash
 ls -lt
