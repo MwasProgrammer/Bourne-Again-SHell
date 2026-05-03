@@ -3,7 +3,7 @@
 A list of linux commands running on Linux Kernel Distro Ubuntu BASH.
 
 ## Changing the working directory
-**Using absolute pathname**
+**Using absolute pathname.**
 ```bash
 cd /path/name
 ```
@@ -13,18 +13,18 @@ cd /path/name
 cd 
 ```
 
-**To change the working directory to the previous working directory**
+**To change the working directory to the previous working directory.**
 ```bash
 cd -
 ```
 
-## List command**
-**To list files sorted by the file modification time**
+## List command
+**To list files sorted by the file modification time.**
 ```bash
 ls -lt
 ```
 
-**To reverse the sort**
+**To reverse the sort.**
 ```bash
 ls -lt --reverse
 ```
@@ -49,3 +49,21 @@ xdg-open filename
 **To close a file.**
 ```bash
 pkill -f filename
+```
+
+## Mounting Disks 
+**To mount a disk/hard drive.**
+Check the disks available on your system - list block-ed storage devices
+```bash
+lsblk 
+```
+
+Mount the drive.
+```bash
+sudo mount /dev/sda1 /mnt/myDrive
+```
+
+**To unmount the drive.**
+```bash
+sudo umount /mnt/myDrive
+```
