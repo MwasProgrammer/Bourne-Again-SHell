@@ -13,13 +13,21 @@ cd /path/name
 cd 
 ```
 
+<<<<<<< HEAD
 **To change the working directory to the previous working directory.**
+=======
+**To change the working directory to the previous working directory. **
+>>>>>>> 7170bab88dff04eabd0d0246b30d25bf94bc341e
 ```bash
 cd -
 ```
 
 ## List command
+<<<<<<< HEAD
 **To list files sorted by the file modification time.**
+=======
+**To list files sorted by the file modification time**
+>>>>>>> 7170bab88dff04eabd0d0246b30d25bf94bc341e
 ```bash
 ls -lt
 ```
@@ -49,6 +57,7 @@ xdg-open filename
 **To close a file.**
 ```bash
 pkill -f filename
+<<<<<<< HEAD
 ```
 
 ## Mounting Disks 
@@ -67,3 +76,5 @@ sudo mount /dev/sda1 /mnt/myDrive
 ```bash
 sudo umount /mnt/myDrive
 ```
+=======
+>>>>>>> 7170bab88dff04eabd0d0246b30d25bf94bc341e
