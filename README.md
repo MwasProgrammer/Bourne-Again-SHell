@@ -78,3 +78,18 @@ sudo umount /mnt/myDrive
 ```
 =======
 >>>>>>> 7170bab88dff04eabd0d0246b30d25bf94bc341e
+
+## Installations
+**To install an app: (VS code)**
+classic tag - grants the installed application (VS code) unrestricted access to the entire system and files.
+```bash
+sudo snap install --classic code
+```
+**To check an installed app:**
+```bash 
+snap list code
+```
+
+**To uninstall: (VS code)**
+```bash
+sudo snap remove code
