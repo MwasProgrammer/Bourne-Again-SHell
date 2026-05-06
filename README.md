@@ -85,6 +85,10 @@ classic tag - grants the installed application (VS code) unrestricted access to 
 ```bash
 sudo snap install --classic code
 ```
+**To install using Advanced Package Tool (APT).**
+```bash
+sudo apt install ./application-name.deb
+```
 **To check an installed app:**
 ```bash 
 snap list code
