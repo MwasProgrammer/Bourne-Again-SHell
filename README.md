@@ -97,3 +97,9 @@ snap list code
 **To uninstall: (VS code)**
 ```bash
 sudo snap remove code
+```
+
+**To check the apps installed from snap store:**
+```bash
+snap list 
+```
