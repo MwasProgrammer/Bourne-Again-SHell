@@ -99,13 +99,15 @@ snap list code
 sudo snap remove code
 ```
 
-<<<<<<< HEAD
 **To check the apps installed from snap store:**
 ```bash
 snap list 
 ```
-=======
 **To check the apps installed using the apt (Advanced Package Tool):**
 ```bash 
 apt list --installed
->>>>>>> d04d76d (Simulate git ahead reconciliation.)
+```
+
+**To search for a specific installed name:**
+```bash 
+apt list --installed | grep application-name
