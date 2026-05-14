@@ -113,6 +113,11 @@ apt list --installed
 apt list --installed | grep application-name
 ```
 
+**To view the diagnostic message  - used to troubleshoot hardware, driver initialization, and system boot issues:**
+```bash
+sudo dmesg
+```
+
 **To mount a hard drive in Ubuntu:**
 First, get the Universal Unique Identifier of the drive you want to mount.
 ```bash
