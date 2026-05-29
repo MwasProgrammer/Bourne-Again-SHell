@@ -122,3 +122,4 @@ sudo dmesg
 First, get the Universal Unique Identifier of the drive you want to mount.
 ```bash
 sudo blkid
+```
