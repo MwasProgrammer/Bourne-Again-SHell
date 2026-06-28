@@ -123,3 +123,13 @@ First, get the Universal Unique Identifier of the drive you want to mount.
 ```bash
 sudo blkid
 ```
+
+**Remove command types**
+i. Interactive
+```bash
+rm -i filename
+```
+ii. Recursive
+```bash
+rm -r directory-name
+```
