@@ -125,11 +125,11 @@ sudo blkid
 ```
 
 **Remove command types**
-## i. Interactive
+**i. Interactive**
 ```bash
 rm -i filename
 ```
-## ii. Recursive
+**ii. Recursive**
 ```bash
 rm -r directory-name
 ```
