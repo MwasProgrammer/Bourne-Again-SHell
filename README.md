@@ -133,3 +133,8 @@ rm -i filename
 ```bash
 rm -r directory-name
 ```
+
+**To find the file location of a command:**
+```bash
+which cmd-type e.g which ls
+```
