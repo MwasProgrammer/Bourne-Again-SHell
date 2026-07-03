@@ -119,12 +119,13 @@ sudo dmesg
 ```
 
 **To mount a hard drive in Ubuntu:**
-## First, get the Universal Unique Identifier of the drive you want to mount.
+## First, get the Universal Unique Identifier of the drive you want to mount.##
 ```bash
 sudo blkid
 ```
 
 **Remove command types**
+```
 **i. Interactive**
 ```bash
 rm -i filename
