@@ -89,9 +89,15 @@ sudo snap install --classic code
 ```bash
 sudo apt install ./application-name.deb
 ```
+
 **To check an installed app:**
 ```bash 
 snap list code
+```
+
+**To check list of packages that are upgradeable**
+```bash
+apt list -upgradeable
 ```
 
 **To uninstall: (VS code)**
@@ -119,13 +125,12 @@ sudo dmesg
 ```
 
 **To mount a hard drive in Ubuntu:**
-## First, get the Universal Unique Identifier of the drive you want to mount.##
+## First, get the Universal Unique Identifier of the drive you want to mount.
 ```bash
 sudo blkid
 ```
 
 **Remove command types**
-```
 **i. Interactive**
 ```bash
 rm -i filename
