@@ -144,3 +144,8 @@ rm -r directory-name
 ```bash
 which cmd-type e.g which ls
 ```
+
+**To check the manual page of a given command:**
+```bash
+man cmd e.g. man ls
+```
