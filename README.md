@@ -149,3 +149,8 @@ which cmd-type e.g which ls
 ```bash
 man cmd e.g. man ls
 ```
+
+**To check if a command alread exists in the system:**
+```bash
+type cmd e.g. type grep
+```
